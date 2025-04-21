@@ -1,0 +1,92 @@
+#+TITLE: Quels outils mathématiques permettent de modéliser les phénomènes météorologiques ?
+#+AUTHOR: Laurent Garnier
+
+* Introduction
+** Accroche
+
+   Saviez-vous qu’une simple équation mathématique peut prédire un
+   ouragan des jours à l’avance ?
+
+** Problématique
+
+   Comment les mathématiques permettent-elles de modéliser des
+   systèmes aussi complexes que la météo ?
+
+** Annonce du plan
+
+   1. Les équations fondamentales (EDP : Equations aux Dérivées
+      Partielles, dynamique des fluides)
+   2. Résolution numérique et limites (discrétisation, chaos)
+   3. Applications et enjeux futurs (IA, prévisions, climat)
+
+
+* Partie 1 : Les équations mathématiques de base
+** Sous-partie 1.1 : Les [[https://fr.wikipedia.org/wiki/%C3%89quations_de_Navier-Stokes][équations de Navier-Stokes]]
+
+   + Description du mouvement des fluides (atmosphère = fluide géant)
+   + Rôle de la pression, de la viscosité et des forces de Coriolis
+
+** Sous-partie 1.2 : Autres équations clés
+
+   + Équation de la chaleur (transferts d'énergie)
+   + Équation de continuité (conservation de la masse)
+   + Exemple concret : formation d'une [[https://fr.wikipedia.org/wiki/D%C3%A9pression_(m%C3%A9t%C3%A9orologie)][dépression]]
+
+** Transition
+
+   Mais résoudre ces équations analytiquement est impossible… C’est là
+   qu’intervient l’analyse numérique.
+
+
+* Partie 2 : La résolution numérique et ses défis
+** Sous-partie 2.1 : Discrétisation des équations
+
+   + Méthodes des [[https://fr.wikipedia.org/wiki/M%C3%A9thode_des_diff%C3%A9rences_finies][différences finies]] / [[https://fr.wikipedia.org/wiki/M%C3%A9thode_des_volumes_finis][volumes finis]].
+   + Exemple : Maillage 3D de l’atmosphère (comme un puzzle géant).
+
+** Sous-partie 2.2 : Le problème du chaos et des incertitudes
+
+   + [[https://fr.wikipedia.org/wiki/Effet_papillon][Effet papillon]] (Lorenz, 1963).
+   + Prévisions ensemblistes (statistiques + probabilités).
+
+
+** Transition
+
+   Malgré ces défis, ces outils ont des applications cruciales.
+
+
+* Partie 3 : Applications et perspectives
+** Sous-partie 3.1 : Prévisions météo et enjeux sociétaux
+
+   + Réduction des risques (catastrophes naturelles, agriculture).
+   + Exemple : Prévision de la trajectoire d’un ouragan.
+
+
+** Sous-partie 3.2 : L’avenir : IA et supercalculateurs
+
+   + [[https://fr.wikipedia.org/wiki/Apprentissage_automatique][Apprentissage automatique]] pour corriger les modèles.
+   + Ouverture : Modélisation du changement climatique.
+
+* Conclusion
+** Synthèse
+
+   Les maths transforment le chaos atmosphérique en modèles
+   prédictifs.
+
+** Ouverture
+
+   Avec le réchauffement climatique, ces outils seront-ils assez
+   puissants ?
+
+
+* Préparation des questions du jury (exemples)
+
+  + Question : "Pourquoi les équations de Navier-Stokes sont-elles si
+    difficiles à résoudre ?"
+  + Réponse : Non-linéarité + sensibilité aux conditions initiales
+    (chaos).
+  + Question : "Comment l’IA améliore-t-elle les modèles météo ?"
+  +  Réponse : En apprenant à partir de données passées pour affiner
+    les prévisions.
+  + Question : "Quelles limites éthiques pour ces modèles ?"
+  + Réponse : Biais des données, dépendance aux supercalculateurs.
